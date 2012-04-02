@@ -1,0 +1,133 @@
+\documentclass{article}
+\begin{document}
+\section*{Documentation for making of souvenir}
+In this documentation I tried to explain the procedure for making of souvenir. This procedure is after filling the data in the Souvenir(Yaadein)
+
+\subsection*{Software requirements}
+\begin{itemize}
+\item Latex
+\begin{itemize}
+\item Installation: \$ sudo apt-get install texlive-full
+\end{itemize}
+\item sam2p : Image format converter
+\begin{itemize}
+\item Installation: \$ sudo apt-get install sam2p
+\end{itemize}
+\end{itemize}
+
+\subsection*{Need of files and folders}
+Following files and folders are required for making of souvenir.
+\begin{enumerate}
+\item Folders
+\begin{itemize}
+\item files: Previously it should be empty. After retreiving the images, folder contains images
+\item headfoot: contains footer.eps and footer.eps is the image for footer and this can be designed using gimp or any other software
+\end{itemize}
+\item Files
+\begin{itemize}
+\item php files 
+
+These are described below
+\item final.tex
+
+In this file, filebranch.tex files are included(like filecivil.tex, filecomputer.tex etc) and this is the file from which final.pdf will be produced.
+\item Scripts
+
+batchrename.php, cropper, eps, souvenir.run, souvenirnophp.run. All these are described below
+\end{itemize}
+\item sty files
+
+lastpage.sty, wallpaper.sty, shapepar.sty. These are latex style files.
+\item header eps files
+sgeachcehead.eps, sgeachcsehead.eps, sgeachecehead.eps etc. These are header files which appear at the top of final.pdf file. These can be made with gimp or any other software
+ \end{enumerate}
+
+\subsection*{Retrieve the data from database}
+After filling data in the souvenir, retrieve the data from the database. Following is the procedure for retrieving data:
+\begin{itemize}
+\item Require php files 
+\begin{enumerate}
+\item db.php
+This file is for connectivity of database. You have to replace dbuser, dbpass, dbname created during installation of souvenir.
+\item raiSED.php
+This file is for defining the latex terms like \#, \%
+\item querydav.php
+This file is for selecting the data which is to be retreived
+\item branch.php(branch can be civil, computer, it, electrical etc {like civil.php})
+In these php files, db.php, raiSED.php and querydav.php are included. This file also explains the format of output.
+\end{enumerate}
+\end{itemize}
+
+\subsection*{Get the images}
+Images stored in the files folder (/usr/local/lib/python2.6/dist-packages/django/contrib/admin/media/
+files) are retreived and convert these in the format `S2011classrollno.'. Procedure for this is:
+\begin{enumerate}
+\item Require batchrename.php
+In this file, it is explained that in which format image is received. Before running this file you have to replace with own creates dbuser, dbpass and dbname
+\begin{itemize}
+\item Commands for to run batchrename.php file:
+
+\$ php batchrename.php $>$retriever 
+
+\$ chmod u+x reteriever
+
+\$ ./retriever
+\end{itemize}
+\item Crop the images
+For this run script `cropper' which is given in the package
+\begin{itemize}
+\item Commands to run cropper script:
+
+\$ chmod u+x cropper
+
+\$ ./cropper
+\end{itemize}
+\item Convert png format to eps of images
+For this run script named `eps' which is given in package.
+\begin{itemize}
+\item Commands to run eps file:
+
+\$ chmod u+x eps
+
+\$ ./eps
+\end{itemize}
+\end{enumerate}
+
+\subsection*{Compile php files for data retrieval}
+Firstly run file souvenir.run(given in this package) which creates the filebranch.tex file(branch can be civil, computer, etc like {filecivil.tex}). Secondly run file souvenirnophp.run(also given in this package) which creates the final.pdf file.
+\begin{itemize}
+\item Commands to run the souvenir.run 
+
+\$ chmod u+x souvenir.run
+
+\$ ./souvenir.run
+
+\item Commands to run souvenirnophp.run
+
+\$ chmod u+x souvenirnophp.run
+
+\$ ./souvenirnophp.run
+\end{itemize}
+final.pdf is the final output file.
+
+\subsection*{Script}
+Script for making of souvenir is also given in this package named `script.sh'. Before ruuning the script, following files and folders are required:
+\begin{itemize}
+\item empty folder named files
+\item headfoot folder
+\item branch.php files (civil.php, computer.php....etc)
+\item db.php, raiSED.php, querydav.php
+\item Scripts: batchrename.php, cropper, eps, souvenir.run, souvernirnophp.run
+\item style files: wallpaper.sty, lastpage.sty, shapepar.sty
+\item final.tex file
+\end{itemize}
+\begin{itemize}
+\item Command to run script:
+
+\$ sh script.sh
+\end{itemize}
+
+\end{document} 
+
+
+

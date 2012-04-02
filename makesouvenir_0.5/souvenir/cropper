@@ -1,0 +1,5 @@
+cd files
+for file in *.png;
+do echo $file;
+convert $file -gravity center -crop 300x450+0+0  ${file%.*}.png;
+done

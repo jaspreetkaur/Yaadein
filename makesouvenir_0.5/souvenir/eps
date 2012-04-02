@@ -1,0 +1,6 @@
+cd files
+for file in *.png; 
+do echo $file; 
+sam2p $file ${file%.*}.eps; 
+done
+

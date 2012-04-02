@@ -1,0 +1,38 @@
+body {
+        color: black;
+        background: lightgray;
+	font-size: 120%;
+}
+
+H1 {
+	text-align: center;
+        font-size: 160%;
+	color: black;
+}
+H2 {
+	text-align: center;
+        color: grey;
+        font-size: 120%;
+}
+H3 {
+	text-align: left;
+        font-size: 140%;
+	color: darkgrey;
+}
+
+
+
+/* link attributes */
+a:link {
+        color: black;
+        text-decoration: underline;
+}
+a:visited {
+        color: gray;
+        text-decoration: none;
+}
+a:hover {
+        color: red;
+        font-size: 100%;
+        text-decoration: none;
+}

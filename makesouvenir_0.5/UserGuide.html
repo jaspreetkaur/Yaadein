@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  
+  "http://www.w3.org/TR/html4/loose.dtd">  
+<html > 
+<head><title></title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<!-- html --> 
+<meta name="src" content="UserGuide.tex"> 
+<meta name="date" content="2011-07-29 23:15:00"> 
+<link rel="stylesheet" type="text/css" href="UserGuide.css"> 
+</head><body 
+>
+   <h3 class="likesectionHead"><a 
+ id="x1-1000"></a>Documentation for making of souvenir</h3>
+<!--l. 4--><p class="noindent" >In this documentation I tried to explain the procedure for making of souvenir. This
+procedure is after filling the data in the Souvenir(Yaadein)
+<!--l. 6--><p class="noindent" >
+   <h4 class="likesubsectionHead"><a 
+ id="x1-2000"></a>Software requirements</h4>
+     <ul class="itemize1">
+     <li class="itemize">Latex
+         <ul class="itemize2">
+         <li class="itemize">Installation: $ sudo apt-get install texlive-full</li></ul>
+     </li>
+     <li class="itemize">sam2p : Image format converter
+         <ul class="itemize2">
+         <li class="itemize">Installation: $ sudo apt-get install sam2p</li></ul>
+     </li></ul>
+<!--l. 18--><p class="noindent" >
+   <h4 class="likesubsectionHead"><a 
+ id="x1-3000"></a>Need of files and folders</h4>
+<!--l. 19--><p class="noindent" >Following files and folders are required for making of souvenir.
+     <ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x1-3002x1">Folders
+         <ul class="itemize1">
+         <li class="itemize">files: Previously it should be empty. After retreiving the images, folder
+         contains images
+         </li>
+         <li class="itemize">headfoot: contains footer.eps and footer.eps is the image for footer
+         and this can be designed using gimp or any other software</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x1-3004x2">Files
+         <ul class="itemize1">
+         <li class="itemize">php files
+         <!--l. 30--><p class="noindent" >These are described below
+
+         </li>
+         <li class="itemize">final.tex
+         <!--l. 33--><p class="noindent" >In   this   file,   filebranch.tex   files   are   included(like   filecivil.tex,
+         filecomputer.tex etc) and this is the file from which final.pdf will be
+         produced.
+         </li>
+         <li class="itemize">Scripts
+         <!--l. 36--><p class="noindent" >batchrename.php, cropper, eps, souvenir.run, souvenirnophp.run. All
+         these are described below</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x1-3006x3">sty files
+     <!--l. 40--><p class="noindent" >lastpage.sty, wallpaper.sty, shapepar.sty. These are latex style files.
+     </li>
+     <li 
+  class="enumerate" id="x1-3008x4">header eps files sgeachcehead.eps, sgeachcsehead.eps, sgeachecehead.eps etc.
+     These are header files which appear at the top of final.pdf file. These can be
+     made with gimp or any other software</li></ol>
+<!--l. 45--><p class="noindent" >
+   <h4 class="likesubsectionHead"><a 
+ id="x1-4000"></a>Retrieve the data from database</h4>
+<!--l. 46--><p class="noindent" >After filling data in the souvenir, retrieve the data from the database. Following is
+the procedure for retrieving data:
+     <ul class="itemize1">
+     <li class="itemize">Require php files
+         <ol  class="enumerate1" >
+         <li 
+  class="enumerate" id="x1-4002x1">db.php This file is for connectivity of database. You have to replace
+         dbuser, dbpass, dbname created during installation of souvenir.
+         </li>
+         <li 
+  class="enumerate" id="x1-4004x2">raiSED.php This file is for defining the latex terms like #, %
+         </li>
+         <li 
+  class="enumerate" id="x1-4006x3">querydav.php This file is for selecting the data which is to be retreived
+         </li>
+         <li 
+  class="enumerate" id="x1-4008x4">branch.php(branch  can  be  civil,  computer,  it,  electrical  etc  like
+         civil.php) In these php files, db.php, raiSED.php and querydav.php
+         are included. This file also explains the format of output.</li></ol>
+     </li></ul>
+
+<!--l. 61--><p class="noindent" >
+   <h4 class="likesubsectionHead"><a 
+ id="x1-5000"></a>Get the images</h4>
+<!--l. 62--><p class="noindent" >Images stored in the files folder (/usr/local/lib/python2.6/dist-packages/django/contrib/admin/media/
+files) are retreived and convert these in the format &#8216;S2011classrollno.&#8217;. Procedure for
+this is:
+     <ol  class="enumerate1" >
+     <li 
+  class="enumerate" id="x1-5002x1">Require batchrename.php In this file, it is explained that in which format image
+     is received. Before running this file you have to replace with own creates
+     dbuser, dbpass and dbname
+         <ul class="itemize1">
+         <li class="itemize">Commands for to run batchrename.php file:
+         <!--l. 70--><p class="noindent" >$ php batchrename.php <span 
+class="cmmi-10">&#x003E;</span>retriever
+         <!--l. 72--><p class="noindent" >$ chmod u+x reteriever
+         <!--l. 74--><p class="noindent" >$ ./retriever</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x1-5004x2">Crop the images For this run script &#8216;cropper&#8217; which is given in the
+     package
+         <ul class="itemize1">
+         <li class="itemize">Commands to run cropper script:
+         <!--l. 81--><p class="noindent" >$ chmod u+x cropper
+         <!--l. 83--><p class="noindent" >$ ./cropper</li></ul>
+     </li>
+     <li 
+  class="enumerate" id="x1-5006x3">Convert png format to eps of images For this run script named &#8216;eps&#8217; which is
+     given in package.
+         <ul class="itemize1">
+         <li class="itemize">Commands to run eps file:
+         <!--l. 90--><p class="noindent" >$ chmod u+x eps
+         <!--l. 92--><p class="noindent" >$ ./eps</li></ul>
+     </li></ol>
+<!--l. 96--><p class="noindent" >
+   <h4 class="likesubsectionHead"><a 
+ id="x1-6000"></a>Compile php files for data retrieval</h4>
+<!--l. 97--><p class="noindent" >Firstly run file souvenir.run(given in this package) which creates the filebranch.tex
+file(branch can be civil, computer, etc like filecivil.tex). Secondly run file
+souvenirnophp.run(also given in this package) which creates the final.pdf
+file.
+
+     <ul class="itemize1">
+     <li class="itemize">Commands to run the souvenir.run
+     <!--l. 101--><p class="noindent" >$ chmod u+x souvenir.run
+     <!--l. 103--><p class="noindent" >$ ./souvenir.run
+     </li>
+     <li class="itemize">Commands to run souvenirnophp.run
+     <!--l. 107--><p class="noindent" >$ chmod u+x souvenirnophp.run
+     <!--l. 109--><p class="noindent" >$ ./souvenirnophp.run</li></ul>
+<!--l. 111--><p class="noindent" >final.pdf is the final output file.
+<!--l. 113--><p class="noindent" >
+   <h4 class="likesubsectionHead"><a 
+ id="x1-7000"></a>Script</h4>
+<!--l. 114--><p class="noindent" >Script for making of souvenir is also given in this package named &#8216;script.sh&#8217;. Before
+ruuning the script, following files and folders are required:
+     <ul class="itemize1">
+     <li class="itemize">empty folder named files
+     </li>
+     <li class="itemize">headfoot folder
+     </li>
+     <li class="itemize">branch.php files (civil.php, computer.php....etc)
+     </li>
+     <li class="itemize">db.php, raiSED.php, querydav.php
+     </li>
+     <li class="itemize">Scripts: batchrename.php, cropper, eps, souvenir.run, souvernirnophp.run
+     </li>
+     <li class="itemize">style files: wallpaper.sty, lastpage.sty, shapepar.sty
+     </li>
+     <li class="itemize">final.tex file</li></ul>
+     <ul class="itemize1">
+     <li class="itemize">Command to run script:
+     <!--l. 127--><p class="noindent" >$ sh script.sh</li></ul>
+    
+</body></html> 
+
+
+

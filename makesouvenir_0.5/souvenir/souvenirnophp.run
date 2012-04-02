@@ -1,0 +1,46 @@
+latex final.tex				#creates dvi file from tex file, dvi files support color separation and hence are useful in proffessional printing applications
+echo
+echo ::::::::::::::::::::::::::::::::::
+echo Dvi file created !!
+echo ::::::::::::::::::::::::::::::::::
+echo
+dvips final.dvi -o			#creates postscript file from dvi file, this file supports graphics and is also referred to the adobe postscript format
+echo
+echo ::::::::::::::::::::::::::::::::::
+echo postscript file created !!
+echo ::::::::::::::::::::::::::::::::::
+echo
+#ps2pdf final.ps				#creates pdf file from postscript file, this is a highly compressed version of the postscript file, and is good for web viewing
+echo
+echo ::::::::::::::::::::::::::::::::::
+echo PDF created
+echo ::::::::::::::::::::::::::::::::::
+echo
+
+#the following set of commands will create the pdf files of each branch from the main pdf file, please ensure that these commands run only when the main tex file
+#has all branches selected
+
+'pdftk final.pdf cat 14-21 output civil.pdf
+pdftk final.pdf cat 22-29 output computer.pdf
+pdftk final.pdf cat 30-37 output electrical.pdf
+pdftk final.pdf cat 38-45 output electronics.pdf
+pdftk final.pdf cat 46-53 output information.pdf
+pdftk final.pdf cat 54-61 output mechanical.pdf
+pdftk final.pdf cat 62-66 output production.pdf
+pdftk final.pdf cat 67-73 output mba.pdf'
+
+'pdftk final.pdf cat 1-8 output civil.pdf
+pdftk final.pdf cat 9-16 output computer.pdf
+pdftk final.pdf cat 17-24 output electrical.pdf
+pdftk final.pdf cat 25-32 output electronics.pdf
+pdftk final.pdf cat 33-40 output information.pdf
+pdftk final.pdf cat 41-48 output mechanical.pdf
+pdftk final.pdf cat 49-53 output production.pdf
+pdftk final.pdf cat 54-60 output mba.pdf'
+
+
+echo
+echo ::::::::::::::::::::::::::::::::::
+echo Your Files are Ready for Viewing.
+echo ::::::::::::::::::::::::::::::::::
+echo

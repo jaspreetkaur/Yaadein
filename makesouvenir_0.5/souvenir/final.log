@@ -1,0 +1,519 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.4.5)  30 JUL 2011 19:43
+entering extended mode
+ %&-line parsing enabled.
+**final.tex
+(./final.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+(/usr/share/texmf-texlive/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/extsizes/size8.clo
+File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(/usr/share/texmf-texlive/tex/latex/base/exscale.sty
+Package: exscale 2007/10/29 v2.1h Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 52.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 52.
+\big@size=\dimen102
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/share/texmf-texlive/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2008/11/26 v0.40 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(/usr/share/texmf-texlive/tex/generic/pstricks/pstricks.tex
+`PSTricks' v1.29  <2009/05/19> (tvz)
+\pst@dima=\dimen106
+\pst@dimb=\dimen107
+\pst@dimc=\dimen108
+\pst@dimd=\dimen109
+\pst@dimg=\dimen110
+\pst@dimh=\dimen111
+\pst@hbox=\box26
+\pst@boxg=\box27
+\pst@cnta=\count87
+\pst@cntb=\count88
+\pst@cntc=\count89
+\pst@cntd=\count90
+\pst@cntg=\count91
+\pst@cnth=\count92
+\pst@toks=\toks15
+(/usr/share/texmf-texlive/tex/generic/pstricks/pstricks.con)
+\psunit=\dimen112
+\psxunit=\dimen113
+\psyunit=\dimen114
+\pslinewidth=\dimen115
+\pst@customdefs=\toks16
+\pslinearc=\dimen116
+\everypsbox=\toks17
+\psframesep=\dimen117
+\pslabelsep=\dimen118
+\pst@shift=\dimen119
+\theoverlaybox=\box28
+)
+File: pstricks.tex 2009/05/19 v1.29 `PSTricks' (tvz,hv)
+
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
+Package: geometry 2008/12/21 v4.2 Page Geometry
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count93
+\Gm@cntv=\count94
+\c@Gm@tempcnt=\count95
+\Gm@bindingoffset=\dimen120
+\Gm@wd@mp=\dimen121
+\Gm@odd@mp=\dimen122
+\Gm@even@mp=\dimen123
+\Gm@dimlist=\toks18
+
+(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
+(./lastpage.sty
+Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
+ (JPG)
+) (/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(./wallpaper.sty
+Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
+ (/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count96
+\calc@Bcount=\count97
+\calc@Adimen=\dimen124
+\calc@Bdimen=\dimen125
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count98
+\calc@Cskip=\skip54
+)
+(/usr/share/texmf-texlive/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2006/07/14 v1.1d eso-pic (RN)
+
+(/usr/share/texmf-texlive/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+\wpXoffset=\skip55
+\wpYoffset=\skip56
+\tileXoffset=\skip57
+\tileYoffset=\skip58
+\tilewidth=\skip59
+\tileheight=\skip60
+\tileX=\skip61
+\tileY=\skip62
+) (./shapepar.sty
+\cutoutsep=\skip63
+Package: shapepar 2006/09/11 v 2.1, Shaped paragraphs
+\SH@scale=\dimen126
+\SH@boxb=\box29
+\SH@ntries=\count99
+\spec@bot=\dimen127
+\sqrtcount=\count100
+)
+(/usr/share/texmf-texlive/tex/latex/layouts/layouts.sty
+Package: layouts 2009/09/02 v2.6d graphical depiction of document elements
+\l@ylen=\skip64
+\layoutsbox=\box30
+\l@youtunitlength=\skip65
+\l@youtlinethick=\skip66
+\l@youtlinethickii=\skip67
+\l@ysetupparskip=\skip68
+\l@ysetupbaselineskip=\skip69
+\l@yonem=\skip70
+\l@yonex=\skip71
+\l@ylmarg=\skip72
+\l@yrmarg=\skip73
+\l@yitmindent=\skip74
+\l@ylblwidth=\skip75
+\l@ylblsep=\skip76
+\l@ylparindent=\skip77
+\l@ytsep=\skip78
+\l@ypskip=\skip79
+\l@yptsep=\skip80
+\l@ypsep=\skip81
+\l@yitmsep=\skip82
+\l@ytok=\toks19
+\l@youtpw=\count101
+\l@youtph=\count102
+\l@youthpi=\count103
+\l@youthpii=\count104
+\l@youthpiii=\count105
+\l@youthpiv=\count106
+\l@youthpv=\count107
+\l@youthpvi=\count108
+\l@youthpvii=\count109
+\l@youtparskip=\count110
+\l@youtvpi=\count111
+\l@youtvpii=\count112
+\l@youtvpiii=\count113
+\l@youtvpiv=\count114
+\l@youtvpv=\count115
+\l@youtvpvi=\count116
+\l@youtvpvii=\count117
+\l@youthdo=\count118
+\l@youthdi=\count119
+\l@youthdii=\count120
+\l@youthdiii=\count121
+\l@youthdiv=\count122
+\l@youthdv=\count123
+\l@youthdvi=\count124
+\l@youthdvii=\count125
+\l@youtvdo=\count126
+\l@youtvdi=\count127
+\l@youtvdii=\count128
+\l@youtvdiii=\count129
+\l@youtvdiv=\count130
+\l@youtvdv=\count131
+\l@youtvdvi=\count132
+\l@youtvdvii=\count133
+\l@youtvdviii=\count134
+\l@youtxci=\count135
+\l@youtxcii=\count136
+\l@youtxciii=\count137
+\l@youtxciv=\count138
+\l@youtxcv=\count139
+\l@youtxcvi=\count140
+\l@youtyci=\count141
+\l@youtycii=\count142
+\l@youtyciii=\count143
+\l@youtyciv=\count144
+\l@youtycv=\count145
+\l@youtycvi=\count146
+\l@youtycvii=\count147
+\l@youtycviii=\count148
+\l@youtxco=\count149
+\l@youtyco=\count150
+\l@ytempdima=\skip83
+\stockwidth=\skip84
+\stockheight=\skip85
+\trimedge=\skip86
+\trimtop=\skip87
+\uppermargin=\skip88
+\spinemargin=\skip89
+)
+(/usr/share/texmf-texlive/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks20
+\verbatim@line=\toks21
+\verbatim@in@stream=\read1
+)
+No file final.aux.
+\openout1 = `final.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+*geometry auto-detecting driver*
+*geometry detected driver: dvips*
+-------------------- Geometry parameters
+paper: user defined
+landscape: --
+twocolumn: --
+twoside: true
+asymmetric: --
+h-parts: 45.80894pt, 505.88997pt, 102.71446pt
+v-parts: 76.39566pt, 629.65945pt, 99.15787pt
+hmarginratio: --
+vmarginratio: --
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: dvips
+-------------------- Page layout dimensions and switches
+\paperwidth  654.41338pt
+\paperheight 805.21298pt
+\textwidth  505.88997pt
+\textheight 629.65945pt
+\oddsidemargin  -26.46104pt
+\evensidemargin 30.44447pt
+\topmargin  -32.87433pt
+\headheight 12.0pt
+\headsep    25.0pt
+\footskip   30.0pt
+\marginparwidth 131.0pt
+\marginparsep   10.0pt
+\columnsep  10.0pt
+\skip\footins  7.0pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+\@twosidetrue \@mparswitchtrue 
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+ABD: EveryShipout initializing macros
+
+Package layouts Warning: Layout scale set to 0.5 on input line 23.
+
+\openout2 = `filecivil.aux'.
+
+(./filecivil.tex
+File: headfoot/sgeachcehead.eps Graphic file (type eps)
+ <headfoot/sgeachcehead.eps>
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <6> on input line 12.
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <5> on input line 12.
+File: files/S2011987.eps Graphic file (type eps)
+ <files/S2011987.eps>
+File: files/S20111234.eps Graphic file (type eps)
+
+<files/S20111234.eps>
+File: files/S201186009.eps Graphic file (type eps)
+ <files/S201186009.eps>
+File: files/S201198347.eps Graphic file (type eps)
+ <files/S201198347.eps>
+File: files/S201198676.eps Graphic file (type eps)
+
+<files/S201198676.eps>
+File: files/S2011959595.eps Graphic file (type eps)
+ <files/S2011959595.eps>
+File: files/S20117678969.eps Graphic file (type eps)
+ <files/S20117678969.eps>
+File: files/S20118900098.eps Graphic file (type eps)
+
+<files/S20118900098.eps>
+File: files/S201188896789.eps Graphic file (type eps)
+ <files/S201188896789.eps>
+File: files/S20112147483647.eps Graphic file (type eps)
+ <files/S20112147483647.eps>
+File: headfoot/footer.eps Graphic file (type eps)
+
+<headfoot/footer.eps>)
+Overfull \hbox (0.56894pt too wide) in paragraph at lines 45--27
+[][] 
+ []
+
+[15
+
+
+]
+\openout2 = `filecomputer.aux'.
+
+ (./filecomputer.tex
+File: headfoot/sgeachcsehead.eps Graphic file (type eps)
+ <headfoot/sgeachcsehead.eps>
+File: files/S2011123.eps Graphic file (type eps)
+ <files/S2011123.eps>
+File: files/S20118374.eps Graphic file (type eps)
+
+<files/S20118374.eps>
+File: files/S201145678.eps Graphic file (type eps)
+ <files/S201145678.eps>
+File: files/S201185065.eps Graphic file (type eps)
+ <files/S201185065.eps>
+File: files/S201195037.eps Graphic file (type eps)
+
+<files/S201195037.eps>
+File: files/S2011657890.eps Graphic file (type eps)
+ <files/S2011657890.eps>
+File: files/S20113897982.eps Graphic file (type eps)
+ <files/S20113897982.eps>
+File: files/S201169870898.eps Graphic file (type eps)
+
+<files/S201169870898.eps>
+File: files/S201176786876.eps Graphic file (type eps)
+ <files/S201176786876.eps>
+File: files/S2011368976528.eps Graphic file (type eps)
+ <files/S2011368976528.eps>
+File: headfoot/footer.eps Graphic file (type eps)
+
+<headfoot/footer.eps>)
+Overfull \hbox (0.56894pt too wide) in paragraph at lines 42--29
+[][] 
+ []
+
+[16
+
+
+]
+\openout2 = `fileelectronics.aux'.
+
+ (./fileelectronics.tex)
+\openout2 = `fileit.aux'.
+
+ (./fileit.tex
+File: headfoot/sgeachithead.eps Graphic file (type eps)
+ <headfoot/sgeachithead.eps>
+File: files/S201186019.eps Graphic file (type eps)
+
+<files/S201186019.eps>
+File: files/S201187970.eps Graphic file (type eps)
+ <files/S201187970.eps>
+File: files/S2011768798.eps Graphic file (type eps)
+ <files/S2011768798.eps>
+File: files/S2011768990.eps Graphic file (type eps)
+
+<files/S2011768990.eps>
+File: files/S2011798979.eps Graphic file (type eps)
+ <files/S2011798979.eps>
+File: files/S2011950000.eps Graphic file (type eps)
+ <files/S2011950000.eps>
+File: files/S20116876897.eps Graphic file (type eps)
+
+<files/S20116876897.eps>
+File: files/S20117687689.eps Graphic file (type eps)
+ <files/S20117687689.eps>
+File: files/S20117698798.eps Graphic file (type eps)
+ <files/S20117698798.eps>
+File: files/S201176786987.eps Graphic file (type eps)
+
+<files/S201176786987.eps>
+File: headfoot/footer.eps Graphic file (type eps)
+ <headfoot/footer.eps>)
+Overfull \hbox (0.56894pt too wide) in paragraph at lines 43--35
+[][] 
+ []
+
+[17
+
+
+
+
+]
+\openout2 = `filemechanical.aux'.
+
+ (./filemechanical.tex
+File: headfoot/sgeachmehead.eps Graphic file (type eps)
+ <headfoot/sgeachmehead.eps>
+File: files/S201187900.eps Graphic file (type eps)
+ <files/S201187900.eps>
+File: files/S201191105.eps Graphic file (type eps)
+
+<files/S201191105.eps>
+File: files/S2011435686.eps Graphic file (type eps)
+ <files/S2011435686.eps>
+File: files/S2011789000.eps Graphic file (type eps)
+ <files/S2011789000.eps>
+File: files/S2011789534.eps Graphic file (type eps)
+
+<files/S2011789534.eps>
+File: files/S2011961024.eps Graphic file (type eps)
+ <files/S2011961024.eps>
+File: files/S201188854555.eps Graphic file (type eps)
+ <files/S201188854555.eps>
+File: files/S2011986523123.eps Graphic file (type eps)
+
+<files/S2011986523123.eps>
+File: files/S20112147483647.eps Graphic file (type eps)
+ <files/S20112147483647.eps>
+File: files/S20112147483647.eps Graphic file (type eps)
+
+<files/S20112147483647.eps>
+File: headfoot/footer.eps Graphic file (type eps)
+ <headfoot/footer.eps>)
+Overfull \hbox (0.56894pt too wide) in paragraph at lines 43--37
+[][] 
+ []
+
+[18
+
+
+] AED: lastpage setting LastPage (./final.aux (./filecivil.aux)
+(./filecomputer.aux) (./fileelectronics.aux) (./fileit.aux)
+(./filemechanical.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3312 strings out of 493849
+ 42638 string characters out of 1152847
+ 143220 words of memory out of 3000000
+ 6506 multiletter control sequences out of 15000+50000
+ 5913 words of font info for 22 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 30i,6n,43p,382b,300s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on final.dvi (4 pages, 43704 bytes).

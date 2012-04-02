@@ -1,0 +1,25 @@
+echo
+echo ......................................................................
+echo Please Run This Script Only With Permission !!
+echo ......................................................................
+echo There may be unfinished tasks that you may not be aware of.
+echo ......................................................................
+echo At this point in time, the running of this script is not permitted !!
+echo ......................................................................
+echo Call/SmS me before you edit this file to run it.
+echo .................................................................
+echo
+php civil.php > filecivil.tex
+php computer.php > filecomputer.tex
+php electrical.php > fileelectrical.tex
+php electronics.php > fileelectronics.tex
+php it.php > fileit.tex
+php mechanical.php > filemechanical.tex
+php production.php > fileproduction.tex
+php mba.php > filemba.tex
+
+echo
+echo ::::::::::::::::::::::::Branch-Wise tex files created:::::::::::::::::::::::::
+echo
+
+
